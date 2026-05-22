@@ -1,5 +1,36 @@
+/*Backgrounc
+Botoes
+Cores de textos*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --primary-color:#8F0101;
+    --secondary-color: #B81515;
+
+    --background-primary-color: #ffffff;
+    --background-secondary-color: #f5f5f5;
+    --background-tertiary-color: #0000;
+
+    --text-primary-color: #222222;
+    --text-secondary-color: #FFFFFF;
+
+    --titles-weight:700;
+    --text-weight: 400;
+    --menu-text-weight: 500;
+    
+}
+
+/*CSS RESET*/
 body, img, h1, p, fieldset, legend, label, input, select, textarea, button{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+h1{
+    color: var(--primary-color);
+    font-family: Montserrat;
+    font-weight: var(--titles-weight);
+    
 }
